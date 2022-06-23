@@ -1,12 +1,23 @@
 @extends('template.front.layout')
 @section('content')
+       
         <!-- Header-->
         <header class="bg-dark py-5">
-            <div class="container px-4 px-lg-5 my-5">
+        <div class="input-group rounded-center">
+            <div class="col-2 mr-1">
+                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+            </div>
+            <span class="input-group-text border-0" id="search-addon">
+                <i class="fas fa-search"></i>
+            </span>
+        </div>
+          <div class="container px-4 px-lg-5 my-5">
                 <div class="text-center text-white">
+                
                     <h1 class="display-4 fw-bolder">Shop in style</h1>
                 </div>
             </div>
+
         </header>
         <!-- Section-->
         <section class="py-5">
